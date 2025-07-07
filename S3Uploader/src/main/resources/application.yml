@@ -1,0 +1,12 @@
+aws:
+  s3:
+    bucket-name: s3uploader-ashutosh-dev
+    region: ap-south-1
+    access-key: AKIARL4YA6NVDQ6VBVN7
+    secret-key: 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
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
